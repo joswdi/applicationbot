@@ -50,8 +50,8 @@ async def набор(ctx):
         name="⚠️ Вы получите:",
         value=(
             "```\n"
-            "• Права Fox-Gold.\n"
-            "• Права Admin [Для Admin].\n"
+            "• Права Fox-Gold на нашем сервере [7 дней].\n"
+            "• Права Admin на нашем сервере.\n"
             "• Резервный слот при входе на сервер.\n"
             "• Имунитет от кика/бана.\n"
             "• Интересное времяпровождение.\n"
@@ -61,7 +61,7 @@ async def набор(ctx):
         ),
         inline=False
     )
-    embed.set_image(url="https://www2.online-converting.com/upload/api_71abdc6d62/result.jpg")
+    embed.set_image(url="https://i.pinimg.com/736x/3d/2e/5f/3d2e5fc4c0c5480795de10bb829544a2.jpg")
     await ctx.send(embed=embed, view=RoleSelectView())
 
 @bot.command()
