@@ -33,7 +33,7 @@ async def on_ready():
 
 @bot.command()
 async def набор(ctx):
-    embed = discord.Embed(title="🔮 | НАБОР НА РОЛЬ ADMIN / MODER", color=0x3498db)
+    embed = discord.Embed(title="🔮 | НАБОР В КОМАНДУ ПРОЕКТА", color=0x3498db)
     embed.add_field(
         name="⚠️ Требования:",
         value=(
