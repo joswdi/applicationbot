@@ -38,7 +38,7 @@ class FoxGoldApplicationModal(Modal, title="Заявка на Fox-Gold"):
             if channel:
                 embed = discord.Embed(
                     title="📨 Новая заявка на Fox-Gold", 
-                    color=0x00ff00, 
+                    color=0xf3acde, 
                     timestamp=discord.utils.utcnow()
                 )
                 embed.add_field(name="Имя и возраст", value=self.name_age.value, inline=True)
